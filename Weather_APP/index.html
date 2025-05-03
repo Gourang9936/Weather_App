@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather_App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav_main">
+        Welcome to Weather_App
+    </div>
+
+    <div class="city_in" >
+        <input type="text" id="city_in_id" placeholder="Enter City Here....">
+        <div class="button_submit">
+            <button class="submit-btn" onclick="readData()" >Submit</button>
+
+        </div>
+    </div>
+
+    <div class="main_div">
+        <div class="city_out" id="city_out_id">
+            Nagpur
+        </div>
+
+        <div class="content">
+            <div class="content_top">
+                <div class="left">
+                    <div class="left1" id="left1_id">
+                        Monday
+                    </div>
+                    <div class="left2" id="left2_id">
+                        <!-- 05/05/2004 -->
+                    </div>
+                </div>
+                <div class="right">
+                  <div class="right1" id="right1_id">
+                    50 C
+                  </div>
+                  <div class="right2">
+                    Feels Liks:
+                    <div class="right2_1" id="right2_1_id">
+                        80
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="content_bottom">
+                <div class="humidity" >
+                    Humidity
+                    <div class="hum_num" id="hum_num_id">
+                        65
+                    </div>
+                </div>
+
+                <div class="Tempm">
+                    Temp. Max:
+                    <div class="Tempm_num" id="Tempm_num_id">
+                        52
+                    </div>
+                </div>
+
+                <div class="Tempn">
+                    Temp. Min:
+                    <div class="Tempn_num" id="Tempn_num_id">
+                        52
+                    </div>
+                </div>
+
+                <div class="pressure">
+                    Pressure
+                    <div class="pressure_num" id="pressure_num_id">
+                        52
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="content_button2">
+                <div class="speed">
+                    Speed 
+                    <div class="speed_num" id="speed_num_id">
+                        56456
+                    </div>
+                </div>
+
+                <div class="description">
+                    Description :
+                    <div class="description_num" id="description_num_id">
+                        CLear Sky
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
